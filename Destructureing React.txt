@@ -1,0 +1,61 @@
+const App() => {
+
+userInfo = [
+
+{
+
+username = "naman";
+id= 1 ;
+mobile= "poco";
+
+},
+
+{
+
+username = "Ravi";
+id= 2 ;
+mobile= "oppo";
+
+},
+
+{
+
+username = "Yogi";
+id= 3 ;
+mobile= "vivo";
+
+},
+];
+
+
+
+return
+<main>
+
+{userInfo.map((username, id, mobile)=>(
+
+<ul key= userInfo>
+
+<li>{username}</li>
+<li>{id}</li>
+<li>{mobile}</li>
+
+</ul>
+
+
+))}:
+
+
+
+
+
+
+
+</main>
+
+
+
+
+);
+
+};
